@@ -51,10 +51,13 @@ public class YuApiClient {
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("accessKey", accessKey);
         // 一定不能直接发送
-//        hashMap.put("secretKey", secretKey);
+        //hashMap.put("secretKey", secretKey);
+        //随机数
         hashMap.put("nonce", RandomUtil.randomNumbers(4));
         hashMap.put("body", body);
+        //时间戳
         hashMap.put("timestamp", String.valueOf(System.currentTimeMillis() / 1000));
+        //单向签名
         hashMap.put("sign", genSign(body, secretKey));
         return hashMap;
     }
