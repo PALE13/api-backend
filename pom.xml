@@ -95,12 +95,7 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.yupi</groupId>
-            <artifactId>yuapi-client-sdk</artifactId>
-            <version>0.0.1</version>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>com.yupi</groupId>
             <artifactId>yuapi-client-sdk</artifactId>
