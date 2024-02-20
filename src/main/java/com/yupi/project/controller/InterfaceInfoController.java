@@ -11,8 +11,8 @@ import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoAddRequest;
 import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoInvokeRequest;
 import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoQueryRequest;
 import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoUpdateRequest;
-import com.yupi.project.model.entity.InterfaceInfo;
-import com.yupi.project.model.entity.User;
+import com.yupi.yupicommon.model.entity.InterfaceInfo;
+import com.yupi.yupicommon.model.entity.User;
 import com.yupi.project.model.enums.InterfaceInfoStatusEnum;
 import com.yupi.project.service.InterfaceInfoService;
 import com.yupi.project.service.UserService;
@@ -266,7 +266,7 @@ public class InterfaceInfoController {
 
 
     /**
-     * 测试调用
+     * 调用接口
      *
      * @param interfaceInfoInvokeRequest
      * @param request

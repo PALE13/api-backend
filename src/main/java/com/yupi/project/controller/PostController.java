@@ -13,7 +13,7 @@ import com.yupi.project.model.dto.post.PostAddRequest;
 import com.yupi.project.model.dto.post.PostQueryRequest;
 import com.yupi.project.model.dto.post.PostUpdateRequest;
 import com.yupi.project.model.entity.Post;
-import com.yupi.project.model.entity.User;
+import com.yupi.yupicommon.model.entity.User;
 import com.yupi.project.service.PostService;
 import com.yupi.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
